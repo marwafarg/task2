@@ -1,0 +1,18 @@
+remove branch remote:
+
+git push origin :dev
+git push origin :test
+
+remove branch local:
+git branch -d dev
+git branch -d dev
+
+
+to list tag:
+git tag
+
+delete tag remote:
+git push origin --delete v1.4
+
+delete tag local:
+git push origin -d v1.4
